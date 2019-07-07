@@ -13,7 +13,7 @@ export class LoginComponent implements OnInit {
   userId: string;
   pwd: string;
   msg: string;
-
+//
   userIdControl = new FormControl('', [Validators.required]);
   pwdControl = new FormControl('', [Validators.required]);
 
