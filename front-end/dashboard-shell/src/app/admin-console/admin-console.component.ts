@@ -19,7 +19,7 @@ import { viewClassName } from '@angular/compiler';
   styleUrls: ['./admin-console.component.css']
 })
 export class AdminConsoleComponent implements OnInit, OnDestroy {
-//
+
   mobileQuery: MediaQueryList;
 
   dashboardShellMenu: MenuInfo[] = [];
